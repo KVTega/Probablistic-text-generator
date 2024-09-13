@@ -1,8 +1,8 @@
-#ProbableText: Text Generation with N-grams
-##Project Overview
+# ProbableText: Text Generation with N-grams
+## Project Overview
 This project implements an N-gram-based text generator using custom data structures in Java. The program processes an input text file, builds a map of N-grams (subsequences of N characters), and generates new text based on the probability of characters following each N-gram.
 
-##Features
+## Features
 N-gram Map: The program reads a text file and builds a map of N-grams, where each N-gram is mapped to a list of possible following characters.
 Custom Data Structures: The map is implemented using a custom OurHashMap class, which relies on separate chaining via a custom OurLinkedList class to handle hash collisions.
 Text Generation: Once the N-gram map is built, the program can generate random text based on the N-grams and the characters that are likely to follow them.
